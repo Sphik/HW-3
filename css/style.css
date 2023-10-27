@@ -8,7 +8,10 @@
     margin: 60px auto;
     max-width: 1600px;
   }
-  
+  .text-center{
+    text-align: center!important;
+  }
+
   h1,
   h2,
   h3 {
@@ -97,4 +100,14 @@
     box-shadow: var(--box-shadow);
     color: white;
   }
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 48px;
+      line-height: 1.5;
+    }
   
+    h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  }
